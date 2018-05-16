@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Projet Delville / Harscouet</string>
+    <string name="crypto_name">Nom</string>
+    <string name="crypto_symbol">Symbole</string>
+    <string name="crypto_rank">Rank</string>
+    <string name="crypto_price">Prix</string>
+    <string name="crypto_hour">Heure</string>
+    <string name="crypto_day">Jour</string>
+    <string name="crypto_week">Semaine</string>
+    <string name="back">Retour</string>
+    <string name="moreInfo">+ Info</string>
+    <string name="buy">Acheter</string>
+    <string name="fetchSuccess">Données JSON téléchargé !</string>
+    <string name="action_credit">Crédits</string>
+    <string name="about">Par Delville Francois et Harscouet de Keravel Korentin</string>
+</resources>

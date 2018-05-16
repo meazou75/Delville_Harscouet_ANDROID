@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Project Delville / Harscouet</string>
+    <string name="crypto_name">Name</string>
+    <string name="crypto_symbol">Symbol</string>
+    <string name="crypto_rank">Rank</string>
+    <string name="crypto_price">Price</string>
+    <string name="crypto_hour">Hour</string>
+    <string name="crypto_day">Day</string>
+    <string name="crypto_week">Week</string>
+    <string name="back">Back</string>
+    <string name="moreInfo">+ Info</string>
+    <string name="buy">Buy</string>
+    <string name="fetchSuccess">Data Fetch successfully !</string>
+    <string name="action_credit">Credit</string>
+    <string name="about">By Delville Francois and Harscouet de Keravel Korentin</string>
+</resources>
