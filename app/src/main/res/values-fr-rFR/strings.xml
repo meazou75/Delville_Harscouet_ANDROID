@@ -14,4 +14,6 @@
     <string name="fetchSuccess">Données JSON téléchargé !</string>
     <string name="action_credit">Crédits</string>
     <string name="about">Par Delville Francois et Harscouet de Keravel Korentin</string>
+    <string name="notifTitle">Au revoir</string>
+    <string name="notifContent">Revenez vite !</string>
 </resources>
