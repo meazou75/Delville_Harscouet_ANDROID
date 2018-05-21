@@ -2,11 +2,17 @@ package com.example.meazou.projetandroid;
 
 import android.annotation.SuppressLint;
 import android.app.AlertDialog;
+import android.app.Notification;
+import android.app.NotificationManager;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Color;
 import android.net.Uri;
 import android.os.AsyncTask;
+import android.os.Build;
+import android.support.annotation.RequiresApi;
+import android.support.v4.app.NotificationCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -93,7 +99,18 @@ public class CryptoDescription extends AppCompatActivity {
         cryptoBuyButton = findViewById(R.id.buttonBuy);
 
         cryptoBackButton.setOnClickListener(new View.OnClickListener() {
+            @RequiresApi(api = Build.VERSION_CODES.O)
             public void onClick(View v) {
+                NotificationManager manager = (NotificationManager)getSystemService(Context.NOTIFICATION_SERVICE);
+
+                NotificationCompat.Builder builder = new NotificationCompat.Builder(CryptoDescription.this);
+                Notification notification = builder.setSmallIcon(android.R.drawable.btn_dialog)
+                        .setContentTitle(getString(R.string.notifTitle))
+                        .setContentText(getString(R.string.notifContent))
+                        .setPriority(NotificationCompat.PRIORITY_DEFAULT)
+                        .build();
+
+                manager.notify(0, notification);
                 CryptoDescription.this.onBackPressed();
             }
         });
