@@ -1,4 +1,4 @@
-# Delville_Harscouet_ANDROID
+# Projet Android ESIEA - Bitcoin TRACKER
 
-## DELVILLE Francois 3A-31
-## HARSCOUET DE KERAVEL 3A-31
+## Author : DELVILLE Francois 3A-31 (2017-2018)
+
